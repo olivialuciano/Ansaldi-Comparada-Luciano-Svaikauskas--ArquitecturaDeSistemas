@@ -5,7 +5,6 @@ read n1
 read n2
 while [ -z "$n1" ] || [ -z "$n2" ];
 do
-
         echo "Ud no ha ingresado ningún parámetro -> quiere introducirlos ahora?(s/n)"
         read rta1
 
@@ -20,18 +19,7 @@ do
                         echo"ingrese el segundo nro: "
                         read n2
                 fi
-
-
-
         fi
-        #echo "Una vez ingresado el primer parámetro -> quiere introducir el otro número?(s/n)"
-        #read rta2
-
-        #if [ $rta2 = "s" ];
-        #then
-        #       echo"ingrese el segundo nro: "
-        #       read n2
-        #fi
 done
 
 
