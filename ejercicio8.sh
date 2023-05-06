@@ -1,4 +1,4 @@
-#EJERCICIO 8 :
+#!/bin/bash
 
 echo "ingrese dos números:"
 read n1
